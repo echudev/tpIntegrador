@@ -1,0 +1,53 @@
+body{
+    background-image:url(img/ba2.jpg);
+}
+.navbar{
+    position:static;
+}
+
+/*Estilos para el main*/
+.main-container{
+    max-width:650px;
+    /* background-color:rgb(240, 243, 255); */
+    /* background-color:rgb(199, 205, 230); */
+    /* background-color:rgba(174, 211, 228, 0.233); */
+    background-color:rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(40px);
+    border:1px rgba(221, 221, 221, 0.5) solid;
+    box-shadow:1px 1px 10px rgba(212, 212, 212, 0.774), -1px -1px 10px rgba(214, 214, 214, 0.705);
+}
+
+.card-body{
+    cursor:pointer;
+}
+.card-text{
+     font-size:small;
+}
+.card-body,.venta-container{
+    user-select:none;
+}
+#estudiante{
+    background-color:rgba(215, 240, 252, 0.657);
+    box-shadow:1px 0px 4px rgb(169, 228, 255), -1px 0px 4px rgb(169, 228, 255);
+    transition:.3s;
+}
+#trainee{
+    background-color:rgba(232, 232, 255, 0.712);
+    box-shadow:1px 0px 4px rgb(169, 170, 255), -1px 0px 4px rgb(169, 182, 255);
+}
+#junior{
+    background-color:rgba(254, 255, 214, 0.678);
+    box-shadow:1px 0px 4px rgb(254, 255, 223), -1px 0px 4px rgb(254, 255, 169);
+}
+
+
+/*estilos del form*/
+.btn{
+    background-color:rgb(122, 187, 25);
+    border:solid rgb(122, 187, 25) 1px;
+}
+.alert{
+    width:98.5%;
+}
+
+
